@@ -1,0 +1,110 @@
+/*CSS tutorial : 31 // finish..?*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #eee;
+    font-family: sans-serif;
+}
+/*
+Heder section--------!
+*/
+.contamair{
+    max-width: 1000px;
+    background-color: #e4f9f5;
+    margin:0 auto;
+    padding: 20px;
+}
+.profile{
+    width: 100px;
+    height: 120px;
+    border: 2px solid white;
+    border-radius: 50%;
+    float: left;
+}
+.hedderbio{
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #11999e;
+}
+.contract{
+    float: right;
+    padding: 30px;
+}
+.contract a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+   
+}
+.contract a:hover{
+    text-decoration: underline;
+    color: tomato;
+
+}
+
+.clear{
+    clear: both;
+}
+
+hr{
+    border: 3px solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+/*----------
+personal information----------
+*/
+#personalSection{
+
+}
+
+.contant{
+    margin-bottom: 30px;
+
+}
+
+.leftDiv{
+    width: 30%;
+    float: left;
+}
+
+.rightDiv{
+    width: 70%;
+    float: left;
+}
+
+.comon-hr{
+    border: solid black 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+.education-template-right{
+    float: right;
+    width: 45%;
+}
+.education-template-left{
+    float: left;
+    width: 45%;
+}
+/*footer?*/
+.botom-contamair{
+    background-color: black;
+    color: wheat;
+    text-align: center;
+    padding: 10px;
+}
+.botom-contamair a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+.botom-contamair p{
+    color: red;
+    margin: 20px;
+}
